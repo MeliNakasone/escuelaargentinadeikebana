@@ -1,0 +1,69 @@
+.logo{
+    height: 80px;
+    margin-right: 10px;
+}
+
+.barra{
+    background-color: #EFD3D7;
+}
+
+.nombre{
+    color: grey;
+    font-size: 24px;
+}
+
+.nav-link{
+    color: grey !important;
+}
+
+.jumbotron{
+    background-image: url(./img/arreglo2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    margin-bottom: 0;
+    border-radius: 0;
+    text-shadow: 0 0 5px black;
+}
+
+.btn-info{
+    background-color: #EFD3D7;
+    border: #EFD3D7;
+    padding: 10px;
+    border-radius: 10%;
+
+}
+
+h2{
+    background-color: #EFD3D7;
+    text-align: center;
+    color: grey;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.nleft{
+    background-color: #EFD3D7;
+    background-image: url(./img/Ana.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+footer{
+    background-color: #EFD3D7;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.leyenda{
+    font-size: 16px;
+    letter-spacing: 0;
+}
