@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .logo{
     height: 80px;
     margin-right: 10px;
@@ -26,12 +31,21 @@
     text-shadow: 0 0 5px black;
 }
 
-.btn-info{
-    background-color: #EFD3D7;
-    border: #EFD3D7;
-    padding: 10px;
-    border-radius: 10%;
+.btn-light{
+    border: 1px solid blueviolet
+}
 
+.btn-light a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.texto{
+    height: auto;
+    width: 500px;
+    text-align: end;
+    display: inline-block;
+    float: right;
 }
 
 h2{
@@ -50,6 +64,30 @@ h2{
     height: 300px;
 }
 
+h4{
+    background-color: #EFD3D7;
+    text-align: center;
+    color: grey;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.colaboradoras{
+    padding:5px;
+    width: 150px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
+}
+
+
+
 footer{
     background-color: #EFD3D7;
     height: 80px;
@@ -59,11 +97,17 @@ footer{
     letter-spacing: 5px;
 }
 
-footer a{
+.redes{
+    color: blueviolet;
+}
+
+.redes a{
     text-decoration: none;
+    color: white;
 }
 
 .leyenda{
     font-size: 16px;
     letter-spacing: 0;
 }
+
